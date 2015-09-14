@@ -1,0 +1,212 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+a { text-decoration:none;
+}
+
+a:active {
+   color:33acb7;
+}
+
+.header {
+   
+   height: 85px;
+   width: 100%;
+   border-bottom: 3px solid #7c343a;
+  
+}
+.logo {
+  float:left;
+}
+.logo img {
+    width: 100px;
+    
+}
+
+.nav ul {
+  float: right;
+ padding-top: 20px;
+}
+
+.nav ul li {
+  display: inline;
+  padding: 45px;
+  font-size: 14px;
+
+}
+
+#page_wrapper {
+  clear:both;
+  text-align:center;
+}
+
+.index_title {
+  font-size: 45px;
+  font-weight: 300;
+  font-style:underline;
+  color: #377376;
+}
+
+.title_index {
+  font-size:30px;
+  font-weight:250;
+  a { 
+    color: #377376;
+  }
+ 
+}
+
+.title_index a:hover {
+  color:#096589;
+}
+
+
+
+/*
+input[type=submit] {outline: none;
+	background: transparent;
+	border: 1px solid #d6dce0;
+	padding: .5em 1.5em;
+	border-radius: 1.5em;
+	&:hover {
+		border: 1px solid #377376;
+		color: #33acb7;
+		a {
+			color: #377376 !important;
+		}
+	} }
+
+textarea {
+  padding:5px; border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+width:500px;
+height:250px;
+ 
+}
+  
+*/
+
+	input[type="text"], input[type="email"], input[type="password"], textarea {
+		width: 90%;
+		border: 1px solid #d6dce0;
+		border-radius: .35em;
+		margin-top: 10px;
+		padding: .5em 1em;
+		line-height: 1.75;
+	}
+	input[type="text"] {
+		height: 35px;
+	}
+	textarea {
+		min-height: 180px;
+	}
+	input[type="submit"] {
+		outline: none;
+		background: transparent;
+		border: 1px solid #d6dce0;
+		padding: .5em 1.5em;
+		font-size: 1.1em;
+		border-radius: 1.5em;
+		margin-left: .5em;
+		&:hover {
+			border: 1px solid #33acb7;
+			color: #33acb7;
+		}
+	}
+
+input {
+  font-size:25px;
+}
+
+textarea {
+  font-size:18px;
+}
+
+label {
+  font-size:20px;
+  
+  font-weight:200;
+}
+
+.show_title {
+  font-size: 45px;
+  font-weight: 500;
+  font-style:underline;
+  color: #377376;
+}
+
+.date {
+  color:#47545a;
+  font-size:18px;
+  font-style:italic;
+}
+
+.button {
+  outline: none;
+		background: transparent;
+		border: 1px solid #d6dce0;
+		padding: .5em 1.5em;
+		font-size: 1.1em;
+		border-radius: 1.5em;
+		margin-left: .5em;
+   a { color: #33acb7 !important;
+   }
+		&:hover {
+			border: 1px solid #33acb7;
+			color: #33acb7;
+		}
+        &:visited {
+          color:#33acb7;
+        }
+}
+
+.show_body {
+  font-size:25px;
+  font-weight:300;
+  line-height: 1.5em;
+}
+
+ul {
+  list-style:none;
+}
+
+
+
+.form_comments input[type="text"],.form_comments textarea{
+  width: 35%;
+		border: 1px solid #d6dce0;
+		border-radius: .35em;
+		margin-top: 10px;
+		padding: .5em 1em;
+		line-height: 1.75;
+}
+
+.comments_title {
+  color: #377376;
+}
+
+
+  
+  

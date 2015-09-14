@@ -1,0 +1,6 @@
+<div class="comment_wrapper">
+  <h3><%= comment.title %></h3>
+  <p><%= comment.body %></p>
+  
+  <%= link_to "Delete", [comment.post,comment],method: :delete,data: {confirm: 'Are You Sure' } %>
+</div>
