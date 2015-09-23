@@ -1,6 +1,6 @@
 <h1 class="show_title"><%= @post.title %></h1>
 <p class="date">Submitted <%= time_ago_in_words(@post.created_at) %> Ago.</p>
-<% if user_signed_in? %>
+<% if @post.user==current_user %>
 <p><%= link_to 'Edit Post', edit_post_path ,class:'button'%> </p>
 <% end %>
 <br>
