@@ -83,30 +83,7 @@ a:active {
 
 
 
-/*
-input[type=submit] {outline: none;
-	background: transparent;
-	border: 1px solid #d6dce0;
-	padding: .5em 1.5em;
-	border-radius: 1.5em;
-	&:hover {
-		border: 1px solid #377376;
-		color: #33acb7;
-		a {
-			color: #377376 !important;
-		}
-	} }
 
-textarea {
-  padding:5px; border:2px solid #ccc; 
--webkit-border-radius: 5px;
-border-radius: 5px;
-width:500px;
-height:250px;
- 
-}
-  
-*/
 
 	input[type="text"], input[type="email"], input[type="password"], textarea {
 		width: 90%;
